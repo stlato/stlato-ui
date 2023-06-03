@@ -1,10 +1,9 @@
 module.exports = {
   root: true,
-  // This tells ESLint to load the config from the package `eslint-config-acme`
-  extends: ["acme"],
+  extends: ["stlato"],
   settings: {
     next: {
-      rootDir: ["apps/*/"],
+      rootDir: ["docs"],
     },
   },
 };

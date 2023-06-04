@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "ESNext"
-    ],
+    "lib": ["dom", "dom.iterable", "ESNext"],
     "skipLibCheck": true,
     "strict": true,
     "module": "ESNext",
@@ -22,7 +18,8 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "baseUrl": "src"
+    "baseUrl": "src",
+    "allowSyntheticDefaultImports": true
   },
-  "include": ["src"],
+  "include": ["src"]
 }

@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@types/node": "18.11.10",
-    "eslint": "^8.38.0",
-    "typescript": "^5.0.2"
+    "eslint": "^8.41.0",
+    "typescript": "~5.0.4"
   }
 }

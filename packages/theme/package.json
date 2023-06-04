@@ -1,9 +1,12 @@
 {
   "name": "stlato-ui-theme",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "sideEffects": false,
   "license": "MIT",
   "author": "Stlato",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "style": "dist/tokens.css",
   "files": [
     "dist/**"
   ],
@@ -25,8 +28,8 @@
   },
   "scripts": {
     "build:sd": "style-dictionary build --config ./sd-config.json",
-    "build": "tsup src/index.ts --format esm,cjs --dts",
-    "dev": "tsup src/index.tx --format esm,cjs --watch --dts",
+    "build": "style-dictionary build --config ./sd-config.json & tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --watch --dts",
     "lint": "eslint 'src/**/*.{js,ts}'",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },

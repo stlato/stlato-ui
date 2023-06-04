@@ -1,5 +1,45 @@
 {
   "typography": {
+    "fontFamily": {
+      "sans": {
+        "1": { "value": "-apple-system" },
+        "2": { "value": "BlinkMacSystemFont" },
+        "3": { "value": "\"Helvetica Neue\"" },
+        "4": { "value": "\"Segoe UI\"" },
+        "5": { "value": "\"Hiragino Kaku Gothic ProN\"" },
+        "6": { "value": "\"Hiragino Sans\"" },
+        "7": { "value": "Arial" },
+        "8": { "value": "Meiryo" }
+      },
+      "serif": {
+        "1": { "value": "ui-serif" },
+        "2": { "value": "Georgia" },
+        "3": { "value": "\"Helvetica Neue\"" },
+        "4": { "value": "\"Segoe UI\"" },
+        "5": { "value": "\"Hiragino Kaku Gothic ProN\"" },
+        "6": { "value": "\"Hiragino Sans\"" },
+        "7": { "value": "Arial" },
+        "8": { "value": "Meiryo" },
+        "9": { "value": "" },
+        "10": { "value": "" }
+      },
+      "mono": {
+        "1": { "value": "\"JetBrains Mono\"" },
+        "2": { "value": "monospace" },
+        "3": { "value": "ui-monospace" },
+        "4": { "value": "Menlo" },
+        "5": { "value": "Monaco" },
+        "6": { "value": "\"Cascadia Mono\"" },
+        "7": { "value": "\"Segoe UI Mono\"" },
+        "8": { "value": "\"Roboto Mono\"" },
+        "9": { "value": "\"Oxygen Mono\"" },
+        "10": { "value": "\"Ubuntu Monospace\"" },
+        "11": { "value": "\"Source Code Pro\"" },
+        "12": { "value": "\"Fira Mono\"" },
+        "13": { "value": "\"Droid Sans Mono\"" },
+        "14": { "value": "\"Courier New\"" }
+      }
+    },
     "h1": {
       "fontSize": { "value": "3rem" },
       "lineHeight": { "value": "1.333" },

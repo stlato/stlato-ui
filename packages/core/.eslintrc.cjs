@@ -1,14 +1,14 @@
 module.exports = {
   root: true,
-  extends: ["stlato"],
+  extends: ['stlato'],
   parserOptions: {
-    ecmaVersion: "latest",
+    ecmaVersion: 'latest',
     ecmaFeatures: {
       jsx: true,
     },
-    project: ["./tsconfig.eslint.json"],
-    sourceType: "module",
+    project: ['./tsconfig.eslint.json'],
+    sourceType: 'module',
     tsconfigRootDir: __dirname,
   },
-  ignorePatterns: [".eslintrc.cjs", "dist"],
+  ignorePatterns: ['.eslintrc.cjs', 'prettier.config.cjs', 'tailwind.config.js', 'dist'],
 };

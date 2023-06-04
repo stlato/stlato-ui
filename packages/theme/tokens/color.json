@@ -38,7 +38,7 @@
       "light": { "value": "#61cbc8" },
       "main": { "value": "#27aca2" },
       "dark": { "value": "#1c907c" },
-      "contrastText": { "value": "#000000" }
+      "contrastText": { "value": "#ffffff" }
     },
     "success": {
       "light": { "value": "#35ab62" },
@@ -62,8 +62,7 @@
       "600": { "value": "#7c2af3" },
       "700": { "value": "#691ad6" },
       "800": { "value": "#5b1aaf" },
-      "900": { "value": "#4b178c" },
-      "950": { "value": "#300269" }
+      "900": { "value": "#4b178c" }
     },
     "navy": {
       "50": { "value": "#f3f8f9" },

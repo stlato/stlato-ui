@@ -6,7 +6,7 @@ const config: DocsThemeConfig = {
   project: {
     link: "https://github.com/stlato/stlato-ui/docs/web",
   },
-  docsRepositoryBase: "https://github.com/stlato/stlato-ui/docs/web/src/pages",
+  docsRepositoryBase: "https://github.com/stlato/stlato-ui/apps/web/src/pages",
   footer: {
     text: "Nextra Docs Template",
   },

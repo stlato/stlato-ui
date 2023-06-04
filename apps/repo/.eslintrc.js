@@ -10,10 +10,5 @@ module.exports = {
     sourceType: "module",
     tsconfigRootDir: __dirname,
   },
-  ignorePatterns: [
-    ".eslintrc.cjs",
-    "dist",
-    "next.config.cjs",
-    "theme.config.tsx",
-  ],
+  ignorePatterns: [".eslintrc.js", "dist", "theme.config.ts", "next.config.js"],
 };

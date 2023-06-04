@@ -1,0 +1,82 @@
+{
+  "typography": {
+    "h1": {
+      "fontSize": { "value": "3rem" },
+      "lineHeight": { "value": "1.333" },
+      "fontWeight": { "value": "500" },
+      "letterSpacing": { "value": "-0.02083em" }
+    },
+    "h2": {
+      "fontSize": { "value": "2.125rem" },
+      "lineHeight": { "value": "1.353" },
+      "fontWeight": { "value": "500" },
+      "letterSpacing": { "value": "0em" }
+    },
+    "h3": {
+      "fontSize": { "value": "1.5rem" },
+      "lineHeight": { "value": "1.333" },
+      "fontWeight": { "value": "500" },
+      "letterSpacing": { "value": "0.02083em" }
+    },
+    "h4": {
+      "fontSize": { "value": "1.25rem" },
+      "lineHeight": { "value": "1.4" },
+      "fontWeight": { "value": "700" },
+      "letterSpacing": { "value": "0.0375em" }
+    },
+    "h5": {
+      "fontSize": { "value": "1.125rem" },
+      "lineHeight": { "value": "1.444" },
+      "fontWeight": { "value": "700" },
+      "letterSpacing": { "value": "0.02778em" }
+    },
+    "h6": {
+      "fontSize": { "value": "1rem" },
+      "lineHeight": { "value": "1.75" },
+      "fontWeight": { "value": "700" },
+      "letterSpacing": { "value": "0.04063em" }
+    },
+    "subtitle1": {
+      "fontSize": { "value": "1rem" },
+      "lineHeight": { "value": "1.75" },
+      "fontWeight": { "value": "400" },
+      "letterSpacing": { "value": "0.00938em" }
+    },
+    "subtitle2": {
+      "fontSize": { "value": "0.875rem" },
+      "lineHeight": { "value": "1.571" },
+      "fontWeight": { "value": "500" },
+      "letterSpacing": { "value": "0.00714em" }
+    },
+    "body1": {
+      "fontSize": { "value": "1rem" },
+      "lineHeight": { "value": "2" },
+      "fontWeight": { "value": "400" },
+      "letterSpacing": { "value": "0.00938em" }
+    },
+    "body2": {
+      "fontSize": { "value": "0.875rem" },
+      "lineHeight": { "value": "2.571" },
+      "fontWeight": { "value": "400" },
+      "letterSpacing": { "value": "0.01071em" }
+    },
+    "button": {
+      "fontSize": { "value": "1rem" },
+      "lineHeight": { "value": "1.625" },
+      "fontWeight": { "value": "700" },
+      "letterSpacing": { "value": "0.02857em" }
+    },
+    "caption": {
+      "fontSize": { "value": "0.75rem" },
+      "lineHeight": { "value": "1.667" },
+      "fontWeight": { "value": "400" },
+      "letterSpacing": { "value": "0.03333em" }
+    },
+    "overline": {
+      "fontSize": { "value": "0.75rem" },
+      "lineHeight": { "value": "2.66" },
+      "fontWeight": { "value": "400" },
+      "letterSpacing": { "value": "0.08333em" }
+    }
+  }
+}

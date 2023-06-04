@@ -1,5 +1,9 @@
 {
-  "private": true,
+  "name": "stlato",
+  "version": "0.0.0",
+  "workspaces": [
+    "apps/*"
+  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --no-cache --continue",
@@ -8,13 +12,16 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo run build --filter=docs^... && changeset publish"
+    "release": "turbo run build --filter=docs^... && changeset publish",
+    "postinstall": "manypkg check",
+    "clean:deps": "rm -rf pnpm-lock.yaml node_modules && pnpm -r exec rm -rf node_modules"
   },
-  "devDependencies": {
+  "dependencies": {
     "@changesets/cli": "^2.25.2",
-    "eslint": "^8.29.0",
-    "eslint-config-stlato": "^1.0.9",
-    "prettier": "^2.8.0",
+    "@manypkg/cli": "latest",
+    "eslint": "^8.38.0",
+    "eslint-config-stlato": "^1.1.0",
+    "prettier": "^2.8.8",
     "turbo": "latest"
   },
   "packageManager": "pnpm@7.15.0"

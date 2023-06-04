@@ -1,0 +1,7 @@
+{
+  "transition": {
+    "duration": {
+      "standard": { "value": "0.2s" }
+    }
+  }
+}

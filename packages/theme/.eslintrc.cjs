@@ -1,6 +1,9 @@
 module.exports = {
   root: true,
   extends: ["stlato"],
+  rules: {
+    "import/extensions": "off",
+  },
   parserOptions: {
     ecmaVersion: "latest",
     ecmaFeatures: {

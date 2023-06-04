@@ -1,0 +1,53 @@
+{
+  "source": ["tokens/**/*.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "dist/",
+      "files": [
+        {
+          "destination": "tokens.css",
+          "format": "css/variables",
+          "options": {
+            "outputReferences": true
+          }
+        },
+        {
+          "destination": "tokens.scss",
+          "format": "css/variables",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
+    },
+    "ts": {
+      "transformGroup": "js",
+      "transforms": ["attribute/cti", "name/cti/pascal", "color/css"],
+      "files": [
+        {
+          "destination": "dist/tokens.d.ts",
+          "format": "typescript/module-declarations"
+        },
+        {
+          "destination": "src/tokens.js",
+          "format": "javascript/es6"
+        },
+        {
+          "destination": "src/tokens.d.ts",
+          "format": "typescript/es6-declarations"
+        }
+      ]
+    },
+    "json": {
+      "transformGroup": "json",
+      "transforms": ["attribute/cti", "name/cti/pascal", "color/css"],
+      "files": [
+        {
+          "destination": "src/tokens.json",
+          "format": "json/nested"
+        }
+      ]
+    }
+  }
+}

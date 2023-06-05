@@ -1,5 +1,5 @@
 {
-  "name": "stlato",
+  "name": "stlato-ui",
   "version": "0.0.0",
   "workspaces": [
     "apps/*",

@@ -1,5 +1,6 @@
 {
   "name": "stlato-ui-website",
+  "private": true,
   "version": "0.0.1",
   "description": "Design System, finally for everyone.",
   "browserslist": {

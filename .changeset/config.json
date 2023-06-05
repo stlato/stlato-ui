@@ -6,5 +6,5 @@
   "linked": [],
   "access": "public",
   "updateInternalDependencies": "patch",
-  "ignore": ["stlato-ui-doc"]
+  "ignore": ["stlato-ui-docs", "stlato-ui-website"]
 }

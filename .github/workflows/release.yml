@@ -21,7 +21,7 @@ jobs:
           node-version: 18.x
 
       - name: Install Dependencies
-        run: pnpm i
+        run: yarn
 
       # TODO: Currently under development
       # - name: Create Release Pull Request or Publish to npm

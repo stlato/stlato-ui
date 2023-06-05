@@ -1,3 +1,3 @@
 export const Test = () => {
-  return <div className="inline-flex items-center justify-center rounded-sm">Button</div>;
+  return <div className="inline-flex">Test</div>;
 };

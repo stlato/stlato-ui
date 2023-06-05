@@ -1,5 +1,5 @@
 {
-  "name": "stlato-ui",
+  "name": "stlato",
   "version": "0.0.0",
   "workspaces": [
     "apps/*",
@@ -43,8 +43,5 @@
       "prettier --cache --write --loglevel=warn",
       "eslint --fix --quiet"
     ]
-  },
-  "devDependencies": {
-    "husky": "^8.0.0"
   }
 }

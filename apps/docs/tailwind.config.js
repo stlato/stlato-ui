@@ -1,5 +1,4 @@
-const { typographyPlugin } = require("./src/config/plugin");
-const { tailwindTheme } = require("./src/config/theme");
+const { typographyPlugin, tailwindTheme } = require("stlato-ui-tailwind");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -10,7 +9,4 @@ module.exports = {
   ],
   theme: tailwindTheme,
   plugins: [typographyPlugin],
-  // corePlugins: {
-  //   backgroundOpacity: false,
-  // },
 };

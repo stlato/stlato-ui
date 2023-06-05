@@ -1,0 +1,45 @@
+{
+  "name": "stlato-ui-website",
+  "version": "0.0.1",
+  "description": "Design System, finally for everyone.",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "scripts": {
+    "dev": "next dev -p 4000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint \"**/*.tsx*\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stlato/stlato-ui.git"
+  },
+  "author": "Stlato",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stlato/stlato-ui/issues"
+  },
+  "homepage": "https://github.com/stlato/stlato-ui#readme",
+  "dependencies": {
+    "next": "^13.0.6",
+    "nextra": "latest",
+    "nextra-theme-docs": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.10",
+    "eslint": "^8.41.0",
+    "typescript": "~5.0.4"
+  }
+}

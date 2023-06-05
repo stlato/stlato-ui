@@ -1,0 +1,44 @@
+{
+  "name": "stlato-ui-tailwind",
+  "version": "1.1.0",
+  "sideEffects": false,
+  "license": "MIT",
+  "author": "Stlato",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stlato/stlato-ui.git"
+  },
+  "keywords": [
+    "design-tokens",
+    "theme"
+  ],
+  "bugs": {
+    "url": "https://github.com/stlato/stlato-ui/issues"
+  },
+  "homepage": "https://github.com/stlato/stlato-ui#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --watch --dts",
+    "lint": "eslint 'src/**/*.{js,ts}'",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+  },
+  "dependencies": {
+    "stlato-ui-theme": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-config-stlato": "^1.1.0",
+    "style-dictionary": "^3.7.0",
+    "tsup": "^6.7.0",
+    "typescript": "~5.0.4"
+  }
+}

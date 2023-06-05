@@ -12,7 +12,7 @@ Stlato UI - Design System, finally for everyone.
 
 Stlato UI is a simple Design System tool kit.<br/>
 Fork it, customize it, and create your own.<br/>
-Everything you need to implement design system in your project is [here](https://github.com/stlato/stlato-ui).
+Everything you need to implement design system in your project is here.
 
 ## Features
 
@@ -36,7 +36,7 @@ Stlato UI powered by:
 
 ### Fork(recommended)
 
-1. Fork repository [Stlato UI](https://github.com/stlato/stlato-ui)
+1. Fork this repository
 2. Customize UI
 3. Use it
 
@@ -66,7 +66,7 @@ Stlato UI is also available as a package.<br/>
 However, it is not recommended to use it as a package because the customization is limited.
 
 ```bash
-npm i stlato-ui stlato-ui-theme stlato-ui-tailwind
+npm i stlato-ui
 ```
 
 #### Configure Tailwind

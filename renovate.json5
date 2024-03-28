@@ -1,7 +1,7 @@
 {
   $schema: "https://docs.renovatebot.com/renovate-schema.json",
   extends: ["config:base", "group:monorepos"],
-  schedule: ["at 15:00 on Thursday"],
+  schedule: ["at 15:30 on Thursday"],
   timezone: "Asia/Tokyo",
   automerge: false,
   separateMajorMinor: true,

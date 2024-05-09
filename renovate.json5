@@ -1,7 +1,6 @@
 {
   $schema: "https://docs.renovatebot.com/renovate-schema.json",
   extends: ["config:base", "group:monorepos"],
-  schedule: ["at 15:30 on Thursday"],
   timezone: "Asia/Tokyo",
   automerge: false,
   separateMajorMinor: true,
@@ -15,7 +14,7 @@
       },
       {
         groupName: "]lintやformatterの更新",
-        matchPackageNames: ["eslint", "prettier"],
+        matchDepNames: ["eslint", "prettier"],
         matchPackagePatterns: ["^eslint-", "^prettier-"],
       },
       {

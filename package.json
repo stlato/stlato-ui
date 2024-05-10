@@ -30,7 +30,7 @@
     "scaffdog": "^2.5.0",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@7.15.0",
+  "packageManager": "pnpm@7.33.7",
   "husky": {
     "pre-commit": ".husky/pre-commit"
   },

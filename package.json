@@ -23,11 +23,11 @@
   "dependencies": {
     "@changesets/cli": "^2.25.2",
     "@manypkg/cli": "latest",
-    "eslint": "^8.41.0",
+    "eslint": "^9.0.0",
     "eslint-config-stlato": "^1.1.0",
-    "husky": "^8.0.3",
-    "prettier": "^2.8.8",
-    "scaffdog": "^2.5.0",
+    "husky": "^9.0.0",
+    "prettier": "^3.0.0",
+    "scaffdog": "^4.0.0",
     "turbo": "latest"
   },
   "packageManager": "pnpm@7.15.0",

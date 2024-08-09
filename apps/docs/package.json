@@ -17,7 +17,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-feather": "^2.0.10",
-    "remark-gfm": "^3.0.1",
+    "remark-gfm": "^4.0.0",
     "stlato-ui": "1.0.0",
     "stlato-ui-tailwind": "1.1.0",
     "stlato-ui-theme": "1.1.0",

@@ -39,8 +39,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/node": "18.11.10",
-    "eslint": "^8.41.0",
-    "typescript": "~5.0.4"
+    "@types/node": "24.13.3",
+    "eslint": "^10.0.0",
+    "typescript": "~7.0.0"
   }
 }

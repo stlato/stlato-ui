@@ -32,11 +32,11 @@
   },
   "homepage": "https://github.com/stlato/stlato-ui#readme",
   "dependencies": {
-    "next": "^13.0.6",
+    "next": "^16.0.0",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@types/node": "18.11.10",
